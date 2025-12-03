@@ -1,39 +1,63 @@
-// Definição de Variáveis e Dados (Entrada)
-let heroi = "Felipe";
-let xp = 7500;
+# 🦸‍♂️ Desafio Classificador de Nível de Herói
 
-// O desafio pede Laços de Repetição. 
-// Vamos simular um laço simples que poderia processar múltiplos heróis ou batalhas.
-// Aqui faremos um loop de 1 volta apenas para demonstrar a estrutura, 
-// mas você poderia usar um array de heróis.
-let contador = 0;
+![GitHub repo size](https://img.shields.io/github/repo-size/seu-usuario/classificador-nivel-heroi?style=for-the-badge)
+![GitHub language count](https://img.shields.io/github/languages/count/seu-usuario/classificador-nivel-heroi?style=for-the-badge)
+![GitHub forks](https://img.shields.io/github/forks/seu-usuario/classificador-nivel-heroi?style=for-the-badge)
+![Bitbucket open issues](https://img.shields.io/bitbucket/issues/seu-usuario/classificador-nivel-heroi?style=for-the-badge)
+![Bitbucket open pull requests](https://img.shields.io/bitbucket/pr-raw/seu-usuario/classificador-nivel-heroi?style=for-the-badge)
 
-while (contador < 1) {
-    let nivel = "";
+> Este é um desafio de projeto proposto pela **DIO (Digital Innovation One)** para colocar em prática a lógica de programação.
 
-    // Estruturas de Decisão (Lógica de Níveis)
-    if (xp < 1000) {
-        nivel = "Ferro";
-    } else if (xp >= 1001 && xp <= 2000) {
-        nivel = "Bronze";
-    } else if (xp >= 2001 && xp <= 5000) {
-        nivel = "Prata";
-    } else if (xp >= 5001 && xp <= 7000) {
-        nivel = "Ouro";
-    } else if (xp >= 7001 && xp <= 8000) {
-        nivel = "Platina";
-    } else if (xp >= 8001 && xp <= 9000) {
-        nivel = "Ascendente";
-    } else if (xp >= 9001 && xp <= 10000) {
-        nivel = "Imortal";
-    } else if (xp >= 10001) {
-        nivel = "Radiante";
-    } else {
-        nivel = "Desconhecido"; // Tratamento de erro ou caso não mapeado
-    }
+## 💻 Sobre o Projeto
 
-    // Saída
-    console.log(`O Herói de nome **${heroi}** está no nível de **${nivel}**`);
-    
-    contador++;
-}
+O objetivo deste projeto é criar um sistema simples que classifica o nível de um herói com base na sua quantidade de experiência (XP). Através deste desafio, foram aplicados conceitos fundamentais de programação.
+
+### 🛠 Tecnologias Utilizadas
+
+- **JavaScript** (Lógica de programação)
+- **Node.js** (Ambiente de execução)
+- **Git & GitHub** (Versionamento e documentação)
+
+---
+
+## 📜 Detalhes do Desafio
+
+O desafio consiste em utilizar os seguintes conceitos:
+- Variáveis
+- Operadores
+- Laços de repetição
+- Estruturas de decisões
+
+### Regras de Negócio
+
+Crie uma variável para armazenar o nome e a quantidade de experiência (XP) de um herói, depois utilize uma estrutura de decisão para apresentar alguma das mensagens abaixo:
+
+| Faixa de XP | Nível |
+|---|---|
+| Menor do que 1.000 | Ferro |
+| Entre 1.001 e 2.000 | Bronze |
+| Entre 2.001 e 5.000 | Prata |
+| Entre 5.001 e 7.000 | Ouro |
+| Entre 7.001 e 8.000 | Platina |
+| Entre 8.001 e 9.000 | Ascendente |
+| Entre 9.001 e 10.000 | Imortal |
+| Maior ou igual a 10.001 | Radiante |
+
+### Saída Esperada
+
+Ao final, deve-se exibir a mensagem:
+> "O Herói de nome **{nome}** está no nível de **{nivel}**"
+
+---
+
+## 📂 Estrutura do Projeto
+
+A estrutura de arquivos do projeto é organizada da seguinte maneira:
+
+```bash
+classificador-nivel-heroi/
+│
+├── src/
+│   └── index.js      # Código principal com a lógica do classificador
+├── README.md         # Documentação do projeto
+└── .gitignore        # Arquivos ignorados pelo Git (opcional)
