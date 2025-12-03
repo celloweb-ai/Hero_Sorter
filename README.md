@@ -1,4 +1,3 @@
-````markdown
 # 🦸‍♂️ Desafio Classificador de Nível de Herói
 
 ![GitHub repo size](https://img.shields.io/github/repo-size/seu-usuario/classificador-nivel-heroi?style=for-the-badge)
@@ -62,8 +61,6 @@ classificador-nivel-heroi/
 │   └── index.js      # Código principal com a lógica do classificador
 ├── README.md         # Documentação do projeto
 └── .gitignore        # Arquivos ignorados pelo Git (opcional)
-````
-
 -----
 
 ## 🚀 Como Executar
@@ -92,20 +89,4 @@ Para rodar este projeto localmente, siga os passos abaixo:
 
 ## 👨‍💻 Autor
 
-Criado por **[Seu Nome]** durante o bootcamp da DIO.
 
-\<a href="https://www.google.com/search?q=https://www.linkedin.com/in/seu-linkedin/"\>
-\<img src="https://www.google.com/search?q=https://img.shields.io/badge/LinkedIn-0077B5%3Fstyle%3Dfor-the-badge%26logo%3Dlinkedin%26logoColor%3Dwhite" /\>
-\</a\>
-\<a href="https://www.google.com/search?q=https://github.com/seu-usuario"\>
-\<img src="https://www.google.com/search?q=https://img.shields.io/badge/GitHub-100000%3Fstyle%3Dfor-the-badge%26logo%3Dgithub%26logoColor%3Dwhite" /\>
-\</a\>
-
-```
-
------
-
-### Próximo passo sugerido
-
-Você gostaria que eu te ajudasse a escrever os comandos do Git (`git init`, `git add`, etc.) para subir esses arquivos para o seu repositório agora mesmo?
-```
