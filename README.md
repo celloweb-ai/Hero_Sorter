@@ -61,32 +61,3 @@ classificador-nivel-heroi/
 │   └── index.js      # Código principal com a lógica do classificador
 ├── README.md         # Documentação do projeto
 └── .gitignore        # Arquivos ignorados pelo Git (opcional)
------
-
-## 🚀 Como Executar
-
-Para rodar este projeto localmente, siga os passos abaixo:
-
-1.  **Clone o repositório:**
-
-    ```bash
-    git clone [https://github.com/SEU-USUARIO/classificador-nivel-heroi.git](https://github.com/SEU-USUARIO/classificador-nivel-heroi.git)
-    ```
-
-2.  **Navegue até o diretório do projeto:**
-
-    ```bash
-    cd classificador-nivel-heroi
-    ```
-
-3.  **Execute o código (necessário ter o Node.js instalado):**
-
-    ```bash
-    node src/index.js
-    ```
-
------
-
-## 👨‍💻 Autor
-
-
